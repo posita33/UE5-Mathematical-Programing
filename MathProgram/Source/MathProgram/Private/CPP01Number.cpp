@@ -67,7 +67,10 @@ void ACPP01Number::BeginPlay()
 	answerF = (3.0f/4.0f - 2.0f/3.0f) / (6.0f/8.0f) - (6.0f/4.0f + 1.0f/3.0f) * 36.0f;
 
 	// 正の数・負の数の利用
+	answerF = 760.0f + ((-110.0f) + (+23.0f) + 0.0f + (-40.0f) + (+86.0f) + (-10.0f) + (+100.0f)) / 7.0f;
 
+
+	answerF = FMath::Abs(400.0f);
 
 
 }
